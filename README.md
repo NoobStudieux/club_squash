@@ -10,3 +10,7 @@ Bonjour, si vous voulez tester le projet, qui normalement fonctionne, suivez ces
 	4 - lancer votre serveur et allez sur la racine (localhost/[votre chemin]/club_squash/index.php)
 
 Normalement ça marche. Bon , tout n'est pas finalisé ..
+
+
+login : admin
+pass :  admin
