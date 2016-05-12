@@ -2,7 +2,7 @@
 
 try
 {
-	$bdd = new PDO('mysql:host=localhost;dbname=Matchs;charset=utf8','root','');
+	$bdd = new PDO('mysql:host=localhost;dbname=Matchs;charset=utf8','root','toor');
 }
 catch(Exception $e)
 {
