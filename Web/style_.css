@@ -1,0 +1,292 @@
+@font-face {
+    font-family: learning_curve_proregular;
+    src: url('Connecte/Web/Polices/LearningCurve_OT-webfont.eot');
+    src: url('Connecte/Web/Polices/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Connecte/Web/Polices/LearningCurve_OT-webfont.woff') format('woff'),
+         url('Connecte/Web/Polices/LearningCurve_OT-webfont.ttf') format('truetype'),
+         url('Connecte/Web/Polices/LearningCurve_OT-webfont.svg#learning_curve_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.Conteneur
+{
+	display : flex;
+	justify-content: space-between;
+}
+.element
+{
+	display : flex; flex-direction: column; /*justify-content: space-between;  */
+	background-color: blue; margin-left: 3%; 
+	border-radius: 40px; background-color : rgba(224, 181, 181, 0.7); padding: 2%; border : 5px groove gray; 
+	box-shadow : 10px 10px 10px rgb(174, 162, 162);
+}
+.element
+{
+	width: 21%;
+}
+.element1
+{
+	display : flex; flex-direction: column; 
+	margin-left: 1%; 
+
+	border-radius: 40px; background-color : rgba(101,192,69,0.4); padding: 2%; border : 5px groove gray; 
+	box-shadow : 10px 10px 10px rgb(174, 162, 162);
+}
+.element1A
+{
+	display : flex; flex-direction: column;  
+	margin-left: 1%; 
+
+	border-radius: 40px; background-color : rgba(229,169,54,0.4); padding: 2%; border : 5px groove gray; 
+	box-shadow : 10px 10px 10px rgb(174, 162, 162);   
+}
+.elementGestion
+{
+	display : flex; flex-direction: column; /*justify-content: space-between;  */
+	margin-left: 1%; 
+
+	border-radius: 40px; background-color : rgba(130,67,215,0.4); padding: 2%; border : 5px groove gray; 
+	box-shadow : 10px 10px 10px rgb(174, 162, 162);
+}
+.elementGestion h2
+{
+	background-color:white; text-align : center; color : rgb(99,78,203); border-radius:3px;
+}
+.elementTableau
+{
+	width: 14%;
+	display : flex; flex-direction: column; /*justify-content: space-between;  */
+	 margin-left: 3%; 
+	border-radius: 40px; background-color : rgba(184,32,182, 0.4); padding: 2%; border : 5px groove gray; 
+	box-shadow : 10px 10px 10px rgb(174, 162, 162);
+}
+.boiteAjout
+{
+	background-color: rgba(205,187,231,0.55); margin-top: 1%;  margin-bottom: 1%; width: 80%; margin-left: 10%; padding :1%;padding-left :8%;
+	color :rgb(68,111,104); font-weight:700; font-family : Colibri; font-size  : 1.2em;
+}
+
+.sousElement
+{
+	background-color: red; margin-top: 1%;  margin-bottom: 1%; width: 80%; margin-left: 10%;
+}
+.affichAdmin
+{
+	width:15%; position : fixed; right: 5%; bottom:5%; border-radius: 7px; border: groove 9px darkblue; padding:7px; 
+	background-color: rgba(223, 128, 128, 0.8); box-shadow : 7px 7px 11px black;
+
+}
+.affichAdmin a, .affichCreerTables a
+{
+	color : green; font-size: 1.4em ; color : green; font-family : Verdana; text-shadow: 3px 3px 3px black;
+}
+.affichCreerTables
+{
+	width:15%; position : fixed; left: 5%; bottom:5%; border-radius: 7px; border: groove 9px darkblue; padding:7px; 
+	background-color: rgba(223, 128, 128, 0.8); box-shadow : 7px 7px 11px black;	
+}
+.affichEquipe
+{
+	background-color: rgba(85, 245, 115, 0.7); border-radius : 15px; padding:2px;padding-left:4%; padding-top:1%; padding-bottom:1%;
+	border : 2px solid rgb(11,108,29);
+	color : rgb(69, 31, 48);
+}
+.nomEquipe
+{
+	
+	font-family: Colibri; font-size : 1.2em; text-decoration: underline; background-color: rgb(177,250,208);font-weight : 600;
+	color : rgb(46,37,113);
+
+}
+.affichJoueur
+{
+	background-color: rgba(92,128,246, 0.7); border-radius : 15px; padding:2px;padding-left:4%; padding-top:1%; padding-bottom:1%;
+	border : 2px solid rgb(22,44,115);
+	color : rgb(135,11,16);
+}
+.affichRencontre
+{
+	background-color: rgba(199,199,17,0.5); border-radius : 15px; padding:2px;padding-left:4%; padding-top:1%; padding-bottom:1%;
+	border : 2px solid white; color:rgb(29,67,109);
+}
+.nomJoueur
+{
+	font-family: Colibri; font-size : 1.2em; text-decoration: underline; background-color: rgb(143,184,252); font-weight : 600;
+	color : rgb(210,20,38);
+
+}
+.nomDiscretJoueur, .nomDiscretEquipe
+{
+	font-family: Colibri; font-size : 1.2em; text-decoration: underline; background-color : rgba(22,22,31,0.75);; font-weight : 600;
+	 padding-top:1px; border: 1px solid rgba(228,244,232,0.75);
+}
+.nomDiscretJoueur
+{
+	color : rgba(95,112,217,0.85);
+}
+.nomDiscretEquipe
+{
+	color : rgba(140,237,165,0.75);
+}
+.changementOK
+{
+	color : green;
+}
+.changementKO
+{
+	color : red;
+}
+.enJeu    /* marche aussi pour valide ey blesse */
+{
+	color : rgb(200,240,234);	font-weight: 600;
+	text-shadow: 8px 8px 8px rgb(241, 167, 102);
+
+}
+.horsJeu
+{
+	color : rgb(93,78,82); text-shadow: 3px 3px 3px white;
+}
+.affichDate
+{
+
+}
+.nomJoueur
+{
+
+}
+.place
+{
+ 	color:yellow;
+
+
+}
+.score  /*   l 1042 Gestionnaire */
+{
+
+}
+.affichEquipeLibre
+{
+
+}
+.affichEquipePleine
+{
+
+}
+.note
+{
+
+}
+.petit
+{
+	font-family:Impact; font-size : 0.8em;
+}
+.deconnexion
+{
+	position : relative; top:35%; left : 27%; font-weight:600; text-shadow: 3px 3px 3px rgb(202,130,44);
+	border : 2px solid rgb(138,16,16); background-color: rgba(63,134,231,0.7); color : black; box-shadow: 1px 1px 15px black;
+}
+
+
+
+
+.ope
+{
+
+}
+.Code
+{
+	width: 66%; margin-left: 17%; background-color: rgba(36,128,139,0.75); border-radius: 10px;
+}
+.syntaxe
+{
+	background-color: rgb(166,251,166); color : rgb(89,83,114); font-family : Impact; font-weight: 600;
+}
+.syntaxe:hover
+{
+	background-color: rgb(61,28,186); color : rgb(164,222,13); font-family : Impact; font-weight: 200; font-size:1.5em;
+}
+.italique
+{
+	font-style: italic; font-size: 0.7em; font-weight:200; background-color: rgba(86,147,248, 0.7);
+}
+.paragrapheImportant
+{
+	background-color : rgb(181,172,244); box-shadow : 10px 10px 10px rgb(243, 124, 124); border : 2px solid rgb(232,35,35); 
+	border-radius:15%; padding : 5px;  margin-left : 7%; margin-top : 7%; color: rgb(64,54,140); font-weight : 700;
+font-family : Arial; font-size : 1.3em; margin-bottom : 21px;
+}
+.paragrapheImportant input 
+{
+	width :40%; height : 7%; margin-left: 25%; margin-top: 1%; font-family :Verdana; font-weight: 700; text-shadow : 4px 4px 4px red;
+}
+.resultat
+{
+	background-color : yellow;
+}
+mark
+{
+	background-color : rgba(157,14,14, 0.7); border-radius : 5px; color : rgb(54, 134, 201); text-shadow: 4px 4px 4px rgb(251,249,64);
+	font-weight: 700; font-family : Verdana;
+}
+.titreNiveau_2
+{
+	width: 78%; margin-left: 16%; border-radius: 40px; background-color : rgba(224, 181, 181, 0.5); padding: 2%; border : 5px groove gray; 
+	box-shadow : 10px 10px 10px rgb(174, 162, 162);
+}
+nav
+{
+	position : fixed; margin-left : 1%; top : 25%; width : 15%; background-color : rgba(48,48,249, 0.4); padding-right: 5px; border-radius : 10px; border : 4px groove rgba(58, 57, 52, 0.75); height : 70%;
+}
+nav a
+{
+	color : rgb(202,130,44); margin-bottom : 10%; font-size : 1.3em; font-family : Colibri; font-weight: 500;
+}
+nav div
+{
+	margin: auto; margin-top : 12%; width : 80%; 
+}
+body
+{
+	background-image: radial-gradient(farthest-corner ellipse at center, white, black);
+}
+section
+{
+	border : rgba(185, 181, 210, 0.65) 1px solid; padding : 4%; border-radius : 15px; margin-top: 15px; margin-bottom: 15px; margin-left : 19%;
+	background-color: rgba(192,214,91, 0.25);
+}
+h1
+{
+	width: 60%; margin-left : 20%;  background-color : rgb(122,159,173); text-align : center; border : 3px groove black; 
+	box-shadow : 5px 5px 5px rgb(47,52,54); text-shadow: 3px 3px 2px rgba(195,28,44,0.75); color : rgb(33,33,221);
+	padding : 4px; border-radius: 13px; font-size: 2.4em; font-family : Verdana; padding-top :1%; padding-bottom :1%;
+	 font-family: learning_curve_proregular;
+}
+h2
+{
+	 text-align : justify; border : 2px solid black; background-color : rgb(22,22,31);
+	box-shadow : 5px 5px 5px rgb(159, 137, 137); text-shadow: 3px 3px 3px rgb(142,184,213); color : white;
+	padding-top : 3px; padding-bottom : 3px; padding-left: 10px; width : 100%; border-radius:13px;
+}
+h3
+{
+	width: 25%; margin-left : 10%;  background-color : rgb(111,37,142); text-align : justify; border : 1px solid black;  
+	box-shadow : 5px 5px 5px rgb(159, 137, 137);  color : rgb(63,160,136);
+	padding : 2px; padding-left: 16px;
+}
+h4
+{
+	width: 15%; margin-left : 3%;  background-color : rgb(116,182,232); text-align : justify; border : 1px solid black;  
+	box-shadow : 5px 5px 5px rgb(159, 137, 137);  color : rgb(207,239,234);
+	padding : 2px; padding-left: 16px;
+}
+input
+{
+	width:60%;
+}
+a input
+{
+	width:45%;
+}
+
+
